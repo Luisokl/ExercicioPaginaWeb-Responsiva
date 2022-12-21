@@ -481,3 +481,219 @@ ion-icon {
     flex: 1;
     text-align: center;
 }
+
+/* Area Price */
+
+.default.light.price {
+    background-color: #DDD;
+}
+.section-prices-card {
+    display: flex;
+    width: 270px;
+    height: auto;
+    padding: 20px 30px;
+    text-align: center;
+    background-color: #fff;
+    display: inline-block;
+    flex: 1;
+    margin-right: 10px;
+}
+.price-card-packges p {
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.price-card-value h1 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.price-card-value p {
+    font-size: 0.70rem;
+    text-transform: uppercase;
+    color: #555;
+}
+.price-desc p {
+    font-size: 0.8rem;
+    color: #333;
+}
+.price-desc p:first-child {
+    margin-top: 20px;
+}
+.prices-button {
+    background-color: #333;
+}
+.prices-button:hover {
+    background-color: #b28756;
+}
+
+
+/* Area Premium */
+
+.section-premium .section-body {
+    max-width:initial;
+}
+.section-premium {
+    overflow: hidden;
+}
+.section-premium .slides {
+    width: 1000vw;
+    height: 100%;
+}
+.section-premium .slide {
+    width: 100vw;
+    height: 100%;
+    display: inline-block;
+}
+.section-premium .slide-area {
+    display: flex;
+    max-width: 1140px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #888;
+    padding-bottom: 40px;
+}
+.section-premium .section-aboutus-left {
+    text-align: right;
+    flex: 1;
+}
+.section-premium .section-aboutus-right {
+    flex: 1;
+}
+.section-premium .section-aboutus-left img {
+    width: 350px;
+    height: auto;
+    margin-right: 40px;
+}
+.section-premium .section-premium--item {
+    text-align: left;
+    display: flex;
+    margin-bottom: 30px;
+}
+.section-premium--item img {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    box-shadow: none;
+}
+.section-premium--item div {
+    flex: 1;
+    color: #555;
+    line-height: 20px;
+    font-size: .75rem;
+}
+.section-premium--item div h4 {
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: #000;
+}
+.section-premium--item div p {
+    margin: 10px 0;
+    font-size: .875rem;
+    color: #555;
+}
+.section-premium .slides-pointers {
+    height: 20px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-premium .pointer {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #b28756;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.section-premium .pointer.active {
+    background-color: #b28756;
+}
+
+
+/* Area Some Facts */
+
+.section-facts {
+    display: flex;
+}
+.section-fact {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+}
+.section-fact h3 {
+    text-transform: uppercase;
+    font-size: 3rem;
+    color: #b28756;
+}
+.section-fact h4 {
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+}
+.section-fact p {
+    margin-top: 10px;
+    font-size: .875rem;
+    color: #999;
+    line-height: 25px;
+}
+
+
+/* Area Social Networks */
+
+.networks .section-networks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    padding: 0 20px;
+}
+.networks .section-network {
+    padding: 0 20px;
+}
+.section-network--share {
+    width: 30px;
+}
+.section-network--icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-network .section-network--icon.twitter {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #34c5f0;
+    text-align: center;
+}
+.section-network .section-network--icon.linkedin {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #127cb4;
+    text-align: center;
+}
+.section-network .section-network--icon.facebook {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #336297;
+    text-align: center;
+}
+.section-network .section-network--icon.google {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #e74237;
+    text-align: center;
+}
+.section-network .section-network--icon.pinterest {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #b71c29;
+    text-align: center;
+}
