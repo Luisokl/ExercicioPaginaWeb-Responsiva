@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/assets/CSS/style.css">
     <title>Interface Web</title>
@@ -15,6 +15,7 @@
                 <ion-icon name="extension-puzzle-outline"></ion-icon>
             </div>
             <div class="menu">
+                <img  class="menu-op" src="/assets/images/menu.png">
                 <nav>
                     <ul>
                         <li class="active"><a href="#">Home</a></li>
@@ -34,30 +35,26 @@
 
     <main>
         <section class="banner">
-            <div class="slides">
-                <div class="slide">
+                <div class="slides" style="margin-left: 0;">
                     <div class="slide-area">
-                        <h1>Design is about<br><span>Communication</span></h1>
-                        <h2>Call Us: +00 0 1234 5678</h2>
-                        <a href="#" class="button">Get in touch!</a>
+                        <div class="slide">
+                            <h1>Design is about<br><span>Communication</span></h1>
+                            <h2>Call us +00 0 1234 5678</h2>
+                            <a href="#">Get in touch</a>
+                        </div>
+                    </div>
+                    <div class="slide-area">
+                        <h1>SLIDE 2</h1>
+                    </div>
+                    <div class="slide-area">
+                        <h1>SLIDE 3</h1>
                     </div>
                 </div>
-                <div class="slide">
-                    <div class="slide-area">
-                        ...            
-                    </div>
+                <div class="slides-pointers">
+                    <div class="pointer active">..</div>
+                    <div class="pointer">..</div>
+                    <div class="pointer">..</div>
                 </div>
-                <div class="slide">
-                    <div class="slide-area">
-                        ...            
-                    </div>
-                </div>
-            </div>
-            <div class="slides-pointers">
-                <div class="pointer active">..</div>
-                <div class="pointer">..</div>
-                <div class="pointer">..</div>
-            </div>
         </section>
 
         <section class="default light">
@@ -285,27 +282,12 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="slide">
-                                <div class="slide-area">
-                                    <img src="/media/mulher1.png" class="section-team--avatar">
-                                    <div class="section-team--name">Jane Doe</div>
-                                    <div class="section-team--role">Master mind</div>
-                                    <div class="section-team--social">
-                                        <a href="#"><img src="/assets/images/facebook.png"></a>
-                                        <a href="#"><img src="/assets/images/googleplus.png"></a>
-                                        <a href="#"><img src="/assets/images/linkedin.png"></a>
-                                        <a href="#"><img src="/assets/images/pinterest.png"></a>
-                                        <a href="#"><img src="/assets/images/twitter.png"></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
+                        </div>   
                         <div class="slides-pointers">
                             <div class="pointer active"></div>
                             <div class="pointer"></div>
                             <div class="pointer"></div>
-                        </div>
+                        </div> 
                     </div>
                 </div>
             </div>
@@ -595,21 +577,105 @@
                 </div>
         </section>
 
-        <section class="default light">
+        <section class="default light contacts">
             <div class="section-title">Contact Us</div>
             <div class="section-desc">Our agency located in melbourne, australia</div>
             <div class="section-body">
-                <div class="section-aboutus">
-                    ....
+                <div class="section-contact">
+                    <form action="POST">
+                        <div class="section-contact--info">
+                            <input type="text" name="name" id="name" placeholder="NAME">
+                            <input type="email" name="email" id="email" placeholder="EMAIL">
+                        </div>    
+                        <input type="text" name="subjact" id="subjact" placeholder="SUBJECT">
+                        <textarea name="message" id="message" placeholder="MESSAGE"></textarea>
+                    </form>
+                    <a href="#" class="button">Send message</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-map">
+            <div class="section-map--area">
+                <div class="section-map--info">
+                    <div class="section-map--info-item">
+                        <div class="section-map--info-item-img">
+                            <img src="/assets/images/carta.png">
+                        </div>
+                        PO Box 16122 Collins Street West Victoria 8007 Australia
+                    </div>
+                    <div class="section-map--info-item">
+                        <div class="section-map--info-item-img">
+                            <img src="/assets/images/localizacao.png">
+                        </div>
+                        121 King Street melbourne Victoria 3000 Australia
+                    </div>
+                    <div class="section-map--info-item">
+                        <div class="section-map--info-item-img">
+                            <img src="/assets/images/telefone.png">
+                        </div>
+                        +00 0 1234 5678
+                    </div>
+                    <div class="section-map--info-item">
+                        <div class="section-map--info-item-img">
+                            <img src="/assets/images/arroba.png">
+                        </div>
+                        bukidesign@gmail.com
+                    </div>
+                    <div class="section-map--info-item">
+                        <div class="section-map--info-item-img">
+                            <img src="/assets/images/web.png">
+                        </div>
+                        www.envatto.com
                     </div>
                 </div>
             </div>
         </section>
-        
     </main>
 
     <footer>
-
+        <div class="section-footer">
+            <div class="section-footer--area">
+                <div class="section-footer--social">
+                    <div class="section-footer--item">
+                        <div class="section-footer--item-img">
+                            <img src="/assets/images/twitter.png">
+                        </div>
+                    </div>
+                    <div class="section-footer--item">
+                        <div class="section-footer--item-img">
+                            <img src="/assets/images/linkedin.png">
+                        </div>
+                    </div>
+                    <div class="section-footer--item">
+                        <div class="section-footer--item-img">
+                            <img src="/assets/images/facebook.png">
+                        </div>
+                    </div>
+                    <div class="section-footer--item">
+                        <div class="section-footer--item-img">
+                            <img src="/assets/images/googleplus.png">
+                        </div>
+                    </div>
+                    <div class="section-footer--item">
+                        <div class="section-footer--item-img">
+                            <img src="/assets/images/pinterest.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="section-footer--desc">
+                    <div class="section-footer--desc-p">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel eros vitae erat condimentum viverra a nec lacus. Maecenas eros lectus, rhoncus vel dictum vel, dignissim eget ligula. Vestibulum id tempus quam, sed pellentesque quam. Vestibulum porta aliquet risus, ac rhoncus sem aliquet ac. Donec tincidunt cursus elit vitae euismod.</p>
+                    </div>
+                </div>
+                <div class="section-footer--subscribe">
+                    <div class="section-footer--subcribe-area">
+                        <input type="email" name="email" id="email" placeholder="EMAIL TO SUBSCRIBE">
+                        <a href="#" class="button subscribe">Subscribe</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
 
     <script type ="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script> 
