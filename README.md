@@ -1,6 +1,6 @@
 # Exercicio Página Web Responsiva
 
-![Tela principal home](https://github.com/Luisokl/ExercicioPaginaWeb-Responsiva/blob/master/Screenshot%202022-12-25%2009-47-06.png)
+![Tela principal home](https://github.com/Luisokl/ExercicioPaginaWeb-Responsiva/blob/master/Capturas%20de%20tela%20do%20projeto/tela%20inicial.png)
 
 
 # Sobre o Projeto
