@@ -10,11 +10,23 @@ trata-se de uma interface web dinamica e interativa, organizar a estrutura HTML 
 encontrar padrões no código e a reutilização de trechos de códigos visando aumentar a produtividade e por fim a responsividade da interface, de forma a se adptar perfeitamente
 em qualquer dispositivo.
 
+# Alguns pontos importantes que merecem destaque:
 
+- Estrutura semântica do documento.
+- Alinhamento e posicionamento de itens na página.
+- Especificação no CSS.
+- utilização de pseudo elementos CSS.
+- Identificar padrões no código e a reutilização de trechos de código.
+- Responsividade.
 # tecnologias utilizadas 
 - HTML5
 - CSS3
 
-## Proximos passos 
+# Proximos passo.
 
-Neste primeiro passo o foco foi em desenvolver a estrutura do documento e a parte visual, agora será adicionado as interações com javaScript.
+Adicionar interação com o javaScript.
+
+#
+
+Autor: Luis Fernando <br>
+Link para site: https://lnkd.in/dh_5VJvy
